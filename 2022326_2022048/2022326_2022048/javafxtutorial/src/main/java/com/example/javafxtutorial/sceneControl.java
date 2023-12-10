@@ -10,14 +10,18 @@ import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 import  javafx.scene.Parent;
 
+import javax.sound.sampled.*;
+import java.io.File;
 import java.io.IOException;
+import java.util.Scanner;
 
 
 public class sceneControl extends Application {
     private Game_controller gamecontrol;
+    private Clip clip;
 
     @Override
-    public void start(Stage stage) throws Exception {
+    public void start(Stage stage)throws UnsupportedAudioFileException, IOException, LineUnavailableException {
 
         try{
             FXMLLoader load =new FXMLLoader(getClass().getResource("scene2.fxml"));
@@ -27,6 +31,7 @@ public class sceneControl extends Application {
 
             stage.setScene(scn);
             stage.setResizable(false);
+            System.out.println(System.getProperty("user.dir"));
             stage.show();
         }
         catch (Exception e){
@@ -35,7 +40,9 @@ public class sceneControl extends Application {
 
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         launch(args);
+
     }
 }
+
