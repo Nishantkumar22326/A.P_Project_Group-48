@@ -10,9 +10,12 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="360.0" style="-fx-background-color: FEBBCC;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxtutorial.scenesController">
+<AnchorPane fx:id="pane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="360.0" style="-fx-background-color: FEBBCC;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxtutorial.scenesController">
    <children>
       <ImageView fitHeight="640.0" fitWidth="360.0" pickOnBounds="true">
          <image>
@@ -41,7 +44,7 @@
             </ImageView>
          </graphic>
       </Label>
-      <Button layoutX="129.0" layoutY="148.0" mnemonicParsing="false" onAction="#switchToscene1" prefHeight="35.0" prefWidth="101.0" style="-fx-background-color: 00;" text="New Game" textFill="#0f0101" underline="true">
+      <Button layoutX="123.0" layoutY="148.0" mnemonicParsing="false" onAction="#switchToscene1" prefHeight="36.0" prefWidth="113.0" style="-fx-background-color: 00;" text="New Game" textFill="#0f0101" underline="true">
          <opaqueInsets>
             <Insets right="1.0" top="1.0" />
          </opaqueInsets>
@@ -49,7 +52,7 @@
             <Font size="16.0" />
          </font>
       </Button>
-      <Button layoutX="130.0" layoutY="206.0" mnemonicParsing="false" onAction="#switchToscene4" prefHeight="35.0" prefWidth="101.0" style="-fx-background-color: 00;" text="Load" textAlignment="CENTER" textFill="#0f0101" underline="true">
+      <Button layoutX="110.0" layoutY="206.0" mnemonicParsing="false" onAction="#switchToscene4" prefHeight="35.0" prefWidth="101.0" style="-fx-background-color: 00;" text="Load" textAlignment="CENTER" textFill="#0f0101" underline="true">
          <font>
             <Font size="16.0" />
          </font>
@@ -65,6 +68,35 @@
       <ImageView fitHeight="50.0" fitWidth="48.0" layoutX="97.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../image/save-file-icon-30.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="124.0" layoutY="262.0" mnemonicParsing="false" onAction="#close" prefHeight="36.0" prefWidth="82.0" style="-fx-background-color: 00;" text="Close" textAlignment="CENTER" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+         <textFill>
+            <RadialGradient centerX="0.8911845730027548" centerY="0.13238770685579196" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <ImageView fitHeight="36.0" fitWidth="43.0" layoutX="100.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/exit-icon-16x16-21.jpg" />
          </image>
       </ImageView>
    </children>
