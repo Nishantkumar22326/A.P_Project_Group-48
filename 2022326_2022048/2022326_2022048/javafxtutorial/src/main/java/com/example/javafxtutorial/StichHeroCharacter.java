@@ -1,9 +1,24 @@
 package com.example.javafxtutorial;
 
-public class StichHeroCharacter implements Movable {
+import javafx.fxml.FXML;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+
+public class StickHeroCharacter implements Movable {
+    @FXML
+    private ImageView stickHeroCharacter;
     private Point2D position ;
     private double stick_length;
     private  int score;
+
+    //adding image1 to stick hero character class
+    public void initialize() {
+        if (stickHeroCharacter != null) {
+            // Load the image
+            Image stickHeroImage = new Image(getClass().getResourceAsStream("/image/WhatsApp Image 2023-12-04 at 07.59.33_19c78ecd.jpg"));
+            stickHeroCharacter.setImage(stickHeroImage);
+        }
+    }
 
     public void setPosition(Point2D position) {
         this.position = position;
