@@ -31,7 +31,7 @@
       </Button>
       <ImageView fitHeight="39.0" fitWidth="36.0" layoutX="107.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../image/500_F_116240855_TP4Mu4l1ABlyaBTT3AuV1dxXp7tbNOag-removebg-preview.png" />
+            <Image url="@../../../image/continue.png" />
          </image>
       </ImageView>
       <Label alignment="CENTER" layoutX="56.0" layoutY="55.0" prefHeight="84.0" prefWidth="248.0" text="Menu">
