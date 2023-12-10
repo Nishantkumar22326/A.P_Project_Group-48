@@ -2,5 +2,5 @@ package com.example.javafxtutorial;
 
 
 public interface SoundManager {
-    public void playSound();
+    public void playSound(String soundtype);
 }
