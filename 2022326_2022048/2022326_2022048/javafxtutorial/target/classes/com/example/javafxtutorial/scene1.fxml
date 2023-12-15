@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxtutorial.scenesController">
+
+   <children>
+      <ImageView blendMode="SRC_ATOP" fitHeight="640.0" fitWidth="360.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../image/vector-blue-landscape-illustration.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="pause" layoutX="-6.0" layoutY="-3.0" mnemonicParsing="false" onMouseClicked="#switchToscene3" prefHeight="32.0" prefWidth="47.0" style="-fx-background-color: 000;" text="pause">
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/pause.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fitHeight="25.0" fitWidth="33.0" layoutX="293.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/Cartoon-Cherry-PNG-Image-Free-Download.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="stick" arcHeight="5.0" arcWidth="5.0" fill="#02101e" height="5.0" layoutX="110.0" layoutY="434.0" stroke="BLACK" strokeType="INSIDE" translateY="1.0" width="5.0" />
+      <Rectangle fx:id="pillar1" arcHeight="5.0" arcWidth="5.0" fill="#0a5c92" height="200.0" layoutX="76.0" layoutY="441.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="37.0" />
+      <Rectangle fx:id="pillar2" arcHeight="5.0" arcWidth="5.0" fill="#0a5c92" height="200.0" layoutX="155.0" layoutY="441.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="37.0" />
+      <ImageView fx:id="imageView" fitHeight="55.0" fitWidth="37.0" layoutX="68.0" layoutY="399.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../image/running1.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="Score" alignment="CENTER" contentDisplay="TOP" layoutX="115.0" layoutY="1.0" prefHeight="17.0" prefWidth="103.0" style="-fx-background-color: A2D6F9;" text="Score: 00">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="Cherry" alignment="CENTER" layoutX="322.0" layoutY="1.0" prefHeight="25.0" prefWidth="37.0" style="-fx-background-color: A2D6F9;" text="00">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="increaseButton" layoutX="290.0" layoutY="549.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="37.0" style="-fx-background-color: 00;" textFill="#121212">
+         <graphic>
+            <ImageView fitHeight="52.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/increase-isolated-premium-blue-round-button-abstract-illustration-increase-premium-blue-round-button-104815487-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="restart" layoutX="127.0" layoutY="241.0" mnemonicParsing="false" onAction="#switchToscene1" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: 00;">
+         <graphic>
+            <ImageView fitHeight="69.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/restart.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="continuePlay" defaultButton="true" layoutX="116.0" layoutY="291.0" mnemonicParsing="false" onAction="#switchToscene3" prefHeight="32.0" prefWidth="119.0" style="-fx-background-color: 00;">
+         <graphic>
+            <ImageView fitHeight="64.0" fitWidth="103.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/ContinueButton.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fx:id="Cherry_imageView" fitHeight="19.0" fitWidth="14.0" layoutX="128.0" layoutY="444.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/Cartoon-Cherry-PNG-Image-Free-Download.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ReVive" layoutX="121.0" layoutY="172.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="92.0" style="-fx-background-color: 00;">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="89.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../image/revive-icon-7.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
