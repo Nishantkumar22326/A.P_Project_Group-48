@@ -52,7 +52,7 @@
          <graphic>
             <ImageView fitHeight="52.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../image/increase-isolated-premium-blue-round-button-abstract-illustration-increase-premium-blue-round-button-104815487-removebg-preview.png" />
+                  <Image url="@../../../image/increaseButton.png" />
                </image>
             </ImageView>
          </graphic></Button>
