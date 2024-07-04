@@ -1,16 +1,8 @@
-# Horizontal-Swiper
-For Starting Screen
-
-#npm install
-![img1](https://github.com/Nishantkumar22326/A.P_Project_Group-48/assets/132889056/75cfeb9d-5b45-4a1e-8cc5-eb4fc1d2a216)
-
-
 
                                                            Advanced programming Project Readme File
 								         StickHero Game
 								        Group Number-- 48
-![img1](https://github.com/Nishantkumar22326/A.P_Project_Group-48/assets/132889056/75cfeb9d-5b45-4a1e-8cc5-eb4fc1d2a216)
-							
+
 Team Member- 1. Akash Kumar(2022048) & 2. Nishant Kumar(2022326)
 
 Github Link of Project---https://github.com/Nishantkumar22326/A.P_Project_Group-48.git
@@ -20,24 +12,24 @@ Design Pattern Used-
 2. Flyweight Design pattern in the saveData class
 
 Working-->
-1. Run the game through scenecontrol's class main function
-2. Increase the size of stick by pressing and holding the increase button on the screen.
-3. Tap on the screen for moving player up and down for collecting the cherries.
-4. We have created four buttons for saving the game like the user can save the game in respective load and can load and start the game by clicking that load button in which the game wa saved.
+1. Run the game through scene control's class-main function
+2. Increase the size of the stick by pressing and holding the increase button on the screen.
+3. Tap on the screen to move the player up and down to collect the cherries.
+4. We have created four buttons to save the game. The user can save the game in respective loads and can load and start the game by clicking the load button on which the game was saved.
 
-Junit test--> Used for saveData class. The junit testcases of the saveData methods are made.
+Junit test--> Used for saveData class. The JUnit test cases of the saveData methods are made.
 
 -> Testclass for Game Controller
 -> A Temporary thread instance has been used to run the game
 -> File method has been used to save and load game data(SavaData Class)
--> Commments added at neccessary places.
+-> Comments added at necessary places.
 
 Assumption-->
-1. Always exit the game through main menu always.
+1. Always exit the game through the main menu.
 
 
 GameController class-->
-This JavaFX Game Controller is a main part of the game and it serves as the central controller for managing game elements, sound effects, and interactions.
+This JavaFX Game Controller is a main part of the game, and it serves as the central controller for managing game elements, sound effects, and interactions.
 The controller is designed using the Singleton pattern to ensure a single instance throughout the game.
 
 SceneController class-->
@@ -46,9 +38,9 @@ It includes functionality for handling game mechanics, user input, and scene tra
 The controller manages the game's main scene, stick movement, pillar generation, sound effects, and scene transitions.
 
 SaveData class-->
-The SaveData class is designed to handle saving and loading game data in a JavaFX application.
+The SaveData class is designed to save and load game data in a JavaFX application.
 It uses a Map to store game data for different load numbers, and the data is saved and loaded from a file. 
-The class also includes an inner class DataEntry to represent game data.
+The class also includes an inner class, DataEntry, representing game data.
 
 
 
