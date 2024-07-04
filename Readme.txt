@@ -1,4 +1,12 @@
-                                                              Advance programming Project Readme File
+# Horizontal-Swiper
+For Starting Screen
+
+#npm install
+![img1](https://github.com/Nishantkumar22326/A.P_Project_Group-48/assets/132889056/75cfeb9d-5b45-4a1e-8cc5-eb4fc1d2a216)
+
+
+
+                                                           Advanced programming Project Readme File
 								         StickHero Game
 								        Group Number-- 48
 ![img1](https://github.com/Nishantkumar22326/A.P_Project_Group-48/assets/132889056/75cfeb9d-5b45-4a1e-8cc5-eb4fc1d2a216)
